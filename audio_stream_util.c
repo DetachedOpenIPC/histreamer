@@ -366,6 +366,7 @@ static void usage()
  */
 int audio_stream_util(int argc, char *argv[])
 {
+	PJ_LOG(2, (THIS_FILE, "audio_stream_util"));
     pj_caching_pool cp;
     pjmedia_endpt *med_endpt;
     pj_pool_t *pool;
